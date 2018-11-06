@@ -35,6 +35,20 @@ public class Driver {
     System.out.println(Arrays.toString(ArrayMethods.allColSums(A)));
     System.out.println(Arrays.toString(ArrayMethods.allColSums(B)));
     System.out.println(Arrays.toString(ArrayMethods.allColSums(C)));
+    System.out.println();
+
+    int [][] D = new int [][] {
+      new int[] {1,2,3,4},
+      new int[] {5,5},
+      new int[] {3,3,3,1},
+      new int[] {4,4,0,2},
+    };
+    System.out.println(ArrayMethods.isRowMagic(A));
+    System.out.println(ArrayMethods.isRowMagic(B));
+    System.out.println(ArrayMethods.isRowMagic(C));
+    System.out.println(ArrayMethods.isRowMagic(D));
+
+
 
   }
 }
