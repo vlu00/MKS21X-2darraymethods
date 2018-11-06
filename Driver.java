@@ -43,12 +43,24 @@ public class Driver {
       new int[] {3,3,3,1},
       new int[] {4,4,0,2},
     };
+    int [][] E = new int [][] {
+      new int[] {1,3,4,9},
+      new int[] {2,3},
+      new int[] {3,3,6,1},
+      new int[] {4,1,0,},
+    };
     System.out.println(ArrayMethods.isRowMagic(A));
     System.out.println(ArrayMethods.isRowMagic(B));
     System.out.println(ArrayMethods.isRowMagic(C));
     System.out.println(ArrayMethods.isRowMagic(D));
 
+    System.out.println();
 
+    System.out.println(ArrayMethods.isColumnMagic(A));
+    System.out.println(ArrayMethods.isColumnMagic(B));
+    System.out.println(ArrayMethods.isColumnMagic(C));
+    System.out.println(ArrayMethods.isColumnMagic(D));
+    System.out.println(ArrayMethods.isColumnMagic(E));
 
   }
 }

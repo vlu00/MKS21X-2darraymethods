@@ -63,5 +63,17 @@ public class ArrayMethods {
     return magic;
   }
 
+  public static boolean isColumnMagic(int[][] ary){
+    int [] sums = allColSums(ary);
+    boolean magic = true;
+    int x = Great(ary);
+    for (int i = 0; i < x - 1; i++) {
+      if (sums[i] != sums[i+1]) {
+        return false;
+      }
+    }
+    return magic;
+  }
+
 
 }
