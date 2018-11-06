@@ -8,6 +8,18 @@ public class Driver {
     };
     System.out.println(ArrayMethods.rowSum(A, 2));
     System.out.println(ArrayMethods.rowSum(A, -1));
-    System.out.println(ArrayMethods.rowSum(A, 5));
+    System.out.println(ArrayMethods.rowSum(A, 4));
+
+    int [][] B = new int [][] {
+      new int[] {1,2,3,4},
+      new int[] {1,2},
+      new int[] {1,2,3},
+      new int[] {1,2,3,4},
+    };
+    System.out.println(ArrayMethods.columnSum(B, -1));
+    System.out.println(ArrayMethods.columnSum(B, 4));
+    System.out.println(ArrayMethods.columnSum(B, 3));
+    System.out.println(ArrayMethods.columnSum(B, 2));
+    System.out.println(ArrayMethods.columnSum(B, 1));
   }
 }
